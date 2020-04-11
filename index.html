@@ -1,0 +1,68 @@
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Economica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1>Simple JS Calculator</h1>
+
+<div id="calculator">
+
+
+    
+    <table>
+        <tr>
+        <td colspan="4"><input id="resultbar" autofocus></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input id="btn-c" onclick="clearValue()" type="button" value="C"></input></td>
+            <td><input onclick="delValue()" type="button" value="Del"></input></td>
+            <td><input onclick="enterValue('*')" type="button" value="x"></input></td>
+        </tr>
+        <tr>
+            <td><input onclick="enterValue(7)" type="button" value="7"></input></td>
+            <td><input onclick="enterValue(8)" type="button" value="8"></input></td>
+            <td><input onclick="enterValue(9)" type="button" value="9"></input></td>
+            <td><input onclick="enterValue('/')" type="button" value="÷"></input></td>
+        </tr>
+        <tr>
+            <td><input onclick="enterValue(4)" type="button" value="4"></input></td>
+            <td><input onclick="enterValue(5)" type="button" value="5"></input></td>
+            <td><input onclick="enterValue(6)" type="button" value="6"></input></td>
+            <td><input onclick="enterValue('-')" type="button" value="-"></input></td>
+        </tr>
+        <tr>
+            <td><input onclick="enterValue(1)" type="button" value="1"></input></td>
+            <td><input onclick="enterValue(2)" type="button" value="2"></input></td>
+            <td><input onclick="enterValue(3)" type="button" value="3"></input></td>
+            <td><input onclick="enterValue('+')" type="button" value="+"></input></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input id="btn-0" onclick="enterValue(0)" type="button" value="0"></input></td>
+            <td><input onclick="enterValue('.')" type="button" value="."></input></td>
+            <td><input id="btn-equal" type="button" onclick="equal()" value="="></input></td>
+        </tr>
+
+    </table>
+
+
+</div>
+
+
+<footer>
+    Designer & Developer : <i>Syed Anees Ibrahim</i>
+    <a target="_blank" href="https://github.com/devIbrahim"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="mailto:syedaneesibrahom@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
