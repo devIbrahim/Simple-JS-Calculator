@@ -1,3 +1,3 @@
 # Simple-JS-Calculator
 
-Website link: devibrahimjscalculator.imfast.io
+Website link: https://www.devibrahimjscalculator.imfast.io
